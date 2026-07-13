@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "name_of_bot",
+          "summary": "name_of_bot knowledge base assistant",
+          "description": "Ask name_of_bot questions about the local knowledge base",
+          "examplePhrases": [
+            "Alexa, open name_of_bot",
+            "ask about the oncology SOP",
+            "what is the policy"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Enable the skill and ask a question.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": ["US"]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "code"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
