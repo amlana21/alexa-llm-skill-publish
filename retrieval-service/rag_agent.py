@@ -16,7 +16,7 @@ LANCEDB_TABLE = os.getenv("LANCEDB_TABLE", "knowledge")
 RETRIEVAL_TOP_K = int(os.getenv("RETRIEVAL_TOP_K", "4"))
 
 SYSTEM_PROMPT = (
-    "You are PI, a helpful assistant that answers questions using a private knowledge base. "
+    "You are <bot_name>, a helpful assistant that answers questions using a private knowledge base. "
     "You have access to a retrieval tool that searches the knowledge base. "
     "Always use the tool to find relevant information before answering. "
     "Give concise answers suitable for spoken voice output — two or three sentences maximum. "
